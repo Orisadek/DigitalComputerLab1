@@ -1,13 +1,13 @@
 # DigitalComputerLab1
 
-This project implements a system that include MSP430 microcontroller and is based on Simple FSM.
+This project implements a system that includes MSP430 microcontroller and is based on Simple FSM.
 With each button press, we enter a state:
 
 - PB0 (state1):
- 	 The values of the array are displayed on LEDs with a delay of 0.5 seconds between each number in the array.
+ 	 The array values are displayed on LEDs with a delay of 0.5 seconds between each number in the array.
 
 - PB1 (state2):
-  	Light one led and shift it from right to left with a delay of 0.5 sec between each shift.
+  	Light one led and shifted it from right to left with a delay of 0.5 sec between each shift.
 
 - PB2 (state3):
         Create a PWM signal with a frequency of 4kHz and a duty cycle of 75.%
