@@ -13,13 +13,16 @@ With each button press, we enter a state:
         Create a PWM signal with a frequency of 4kHz and a duty cycle of 75.%
         this is the only state which allows a shift in the state while still in the current one.
 
-Real-Time assignment: add state4 as follows
-				
+## Sleep Mode (state0):
+state0 is in sleep mode (LPM0) and every state except the state3 returns to sleep after the state ends.
+
+## Real-Time assignment: 
+add state4 as follows,
+
 - PB3 (state4):
 	print on LEDs the ASCII value of each char in a string with a latency of 250 ms
 
-**Sleep Mode (state0):** 
-        state0 is in sleep mode (LPM0) and every state except the state3 returns to sleep after the state ends.
+
 	
 FSM:
 
